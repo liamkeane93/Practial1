@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/tfxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff070b0d"
+                android:text="Numbers: 10 20 30 40 50 "
+                android:textColor="#ffffffff"
+                android:textSize="30sp" />
+        <Button
+                android:id="@+id/btnAdd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="calculate1" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff070b0d"
+            android:text="Five Numbers"
+            android:textColor="#ffffffff"
+            android:textSize="30sp" />
+
+    <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter first value"
+            android:inputType="numberDecimal|numberSigned|number" />
+
+    <EditText
+            android:id="@+id/EditText02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Second value"
+            android:inputType="number" />
+    <EditText
+            android:id="@+id/EditText03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Third value"
+            android:inputType="number" />
+    <EditText
+            android:id="@+id/EditText04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fourth value"
+            android:inputType="number" />
+    <EditText
+            android:id="@+id/EditText05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fifth value"
+            android:inputType="number" />
+
+    <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff070b0d"
+            android:text="Sum is..."
+            android:textColor="#ffffffff"
+            android:textSize="30sp" />
+    <TextView
+            android:id="@+id/txtResult1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff070b0d"
+            android:text="Max is..."
+            android:textColor="#ffffffff"
+            android:textSize="30sp" />
+    <TextView
+            android:id="@+id/txtResult2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff070b0d"
+            android:text="Min is..."
+            android:textColor="#ffffffff"
+            android:textSize="30sp" />
+    <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calculate" />
+
+</LinearLayout>
